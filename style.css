@@ -37,15 +37,20 @@ a:hover {
   text-decoration: underline;
 }
 
-header {
+.header {
   background-color: var(--primary-color);
   padding: 48px 0;
   border-bottom: var(--secondary-color) 6px solid;
-}
-
-header a {
   font-size: 1.5rem;
   color: var(--off-white);
+}
+
+.header__logo {
+  margin_right: auto
+}
+
+.header__link {
+  margin_right: auto
 }
 
 main a {
